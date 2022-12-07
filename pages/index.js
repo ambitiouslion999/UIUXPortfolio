@@ -78,7 +78,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1">
-              {/* <Image src={"/design.png"} width={100} height={100} /> */}
+              <Image src={"/design.png"} width={100} height={100} />
          
 
               <h3 className="text-xl py-4 text-orange-400">Design Tools I Use</h3>
@@ -88,7 +88,7 @@ export default function Home() {
               <p className="text-md text-black-800 dark:text-white py-1">Canva</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1">
-              {/* <Image src={"/code.png"} width={100} height={100} /> */}
+              <Image src={"/code.png"} width={100} height={100} />
 
               <h4 className="text-xl py-4 text-orange-400">My Technology Skillset</h4>
               <p className="text-black dark:text-white py-1">Python</p>
