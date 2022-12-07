@@ -4,11 +4,11 @@
   "homepage": "https://ambitiouslion999.github.io/UIUXPortfolio",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "next build",
+    "dev": "next dev",
     "start": "next start",
+    "build": "next build",
     "lint": "next lint"
   },
   "dependencies": {
@@ -27,8 +27,4 @@
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
   }
-
-
-
-
 }
