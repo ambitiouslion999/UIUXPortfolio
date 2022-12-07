@@ -6,14 +6,14 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import kon from "../../public/kon4.png";
-import code from "../../public/code.png";
-import design from "../../public/design.png";
+// import kon from "/kon4.png";
+// import code from "/code.png";
+// import design from "../../public/design.png";
 import Image from "next/image";
-import web1 from "../../public/briefcase.png";
-import web2 from "../../public/craigslist.png";
-import web3 from "../../public/myanimelist.png";
-import web4 from "../../public/vacation_homerents.png";
+// import web1 from "../../public/briefcase.png";
+// import web2 from "../../public/craigslist.png";
+// import web3 from "../../public/myanimelist.png";
+// import web4 from "../../public/vacation_homerents.png";
 
 
 export default function Home() {
@@ -61,7 +61,7 @@ export default function Home() {
               <AiFillGithub />
             </div>
             <div className="mx-auto bg-gradient-to-b from-orange-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={kon} layout="fill" objectFit="cover" />
+              <Image src={"/kon4.png"} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -78,7 +78,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={"/design.png"} width={100} height={100} />
          
 
               <h3 className="text-xl py-4 text-orange-400">Design Tools I Use</h3>
@@ -88,7 +88,7 @@ export default function Home() {
               <p className="text-md text-black-800 dark:text-white py-1">Canva</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={"/code.png"} width={100} height={100} />
 
               <h4 className="text-xl py-4 text-orange-400">My Technology Skillset</h4>
               <p className="text-black dark:text-white py-1">Python</p>
@@ -120,7 +120,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web1}
+                src={"/briefcase.png"}
               />
               </a>
             </div>
@@ -132,7 +132,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 objectFit="cover"
-                src={web2}
+                src={"/craigslist.png"}
               />
               </a>
             </div>
@@ -144,7 +144,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 objectFit="cover"
-                src={web3}
+                src={"/myanimelist.png"}
               />
               </a>
               
@@ -156,7 +156,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web4}
+                src={"/vacation_homerents.png"}
               />
               </a>
             </div>
