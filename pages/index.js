@@ -6,14 +6,14 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import kon from "../public/kon4.png";
-import code from "../public/code.png";
-import design from "../public/design.png";
+import kon from "../../public/kon4.png";
+import code from "../../public/code.png";
+import design from "../../public/design.png";
 import Image from "next/image";
-import web1 from "../public/briefcase.png";
-import web2 from "../public/craigslist.png";
-import web3 from "../public/myanimelist.png";
-import web4 from "../public/vacation_homerents.png";
+import web1 from "../../public/briefcase.png";
+import web2 from "../../public/craigslist.png";
+import web3 from "../../public/myanimelist.png";
+import web4 from "../../public/vacation_homerents.png";
 
 
 export default function Home() {
