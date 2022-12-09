@@ -120,7 +120,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={"briefcase.png"}
+                src={"/briefcase.png"}
               />
               </a>
             </div>
@@ -132,7 +132,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 objectFit="cover"
-                src={"craigslist.png"}
+                src={"/craigslist.png"}
               />
               </a>
             </div>
@@ -144,7 +144,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 objectFit="cover"
-                src={"myanimelist.png"}
+                src={"/myanimelist.png"}
               />
               </a>
               
