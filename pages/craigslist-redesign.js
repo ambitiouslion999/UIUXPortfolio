@@ -1,18 +1,12 @@
-function Craigslist() {
-    import Head from "next/head";
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillGithub,
-} from "react-icons/ai";
+import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import Image from "next/image";
 
 
 
-export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+function Craigslist() {
+    const [darkMode, setDarkMode] = useState(false);
 
   return (
     <div className={darkMode ? "dark" : ""}>
