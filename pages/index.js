@@ -119,7 +119,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="https://ambitiouslion999.github.io/responsive-redesign/">
+              <a href="https://uiux-portfolio-1w6u.vercel.app/craigslist-redesign">
               <Image
                 className="rounded-lg"
                 width={"100%"}
