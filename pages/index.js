@@ -62,7 +62,7 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 d-flex justify-content-between">
               I am a person who loves to create. Whether it is making
               <span className="text-orange-400"> websites </span>
               or designing <span className="text-orange-400"> apps</span>,
