@@ -67,7 +67,7 @@ function Briefcase() {
             this problem so I went and did some research.
             </p>
             </div>
-          <h3 className="text-4xl py-8 leading-8 textblue-600 font-medium dark:text-blue-400 md:text-5xl">
+          <h3 className="text-4xl py-8 leading-8 text-blue-600 font-medium dark:text-blue-400 md:text-5xl">
               Research
          </h3>
         <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
@@ -87,7 +87,7 @@ function Briefcase() {
             people get connected to lawyers and be easy to use and accessible for
             people who speak other languages.
             </p>
-        <h3 className="text-4xl py-8 leading-8 textblue-600 font-medium dark:text-blue-400 md:text-5xl">
+        <h3 className="text-4xl py-8 leading-8 text-blue-600 font-medium dark:text-blue-400 md:text-5xl">
             The Designs
         </h3>
         <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
@@ -127,7 +127,7 @@ function Briefcase() {
         designing the interface for these screens. Therefore, only essential
         information is displayed.
         </p>
-        <h3 className="text-4xl py-8 leading-8 textblue-600 font-medium dark:text-blue-400 md:text-5xl">
+        <h3 className="text-4xl py-8 leading-8 text-blue-600 font-medium dark:text-blue-400 md:text-5xl">
         Conclusion
         </h3>
         <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
