@@ -49,19 +49,19 @@ function Briefcase() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1">
 
             <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
-            Only 8% of low income workers file claims when they are
+            Only 8 percent of low income workers file claims when they are
             seriously injured.
             </p>
             <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
-            25% of those who do file face first-round denial.
+            25 percent of those who do file face first-round denial.
             </p>
             <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
-            At the end, only 6% of claimants receive benefits.
+            At the end, only 6 percent of claimants receive benefits.
             </p>
             </div>
             <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
             The majority of the people affected are immigrants and people who speak English
-            as a second language since they often either can't afford a lawyer or can't
+            as a second language since they often either cannot afford a lawyer or cannot
             find someone who speaks the same langauge as them. I thought to myself that there must
             be lawyer-finding apps and websites out there already that are attempting to solve
             this problem so I went and did some research.
@@ -108,8 +108,8 @@ function Briefcase() {
         <img src="/lan4.png" ></img>
         </div>
         <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
-        As you can see, it's designed so that the user is asked one simple question 
-        at a time so that the user isn't confused and the screen isn't cluttered.
+        As you can see, it is designed so that the user is asked one simple question 
+        at a time so that the user is not confused and the screen is not cluttered.
         There are also shades of color to make the text more readable.
         </p>
         <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
@@ -133,7 +133,7 @@ function Briefcase() {
         <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
         I was able to successfully create an app design that is accessible to people who
         speak languages other than English. This app design also readable and comprehensive
-        so that the user isn't bogged-down with complex words or a cluttered screen. I added
+        so that the user is not bogged-down with complex words or a cluttered screen. I added
         shades of color to really differentiate the various choices. If I were to continue this
         project further, I would add a user profile page where the user could add information that
         relates to themself and their case. The most important lesson I learned from doing this project

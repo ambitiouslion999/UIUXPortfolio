@@ -83,7 +83,7 @@ function AnimeList() {
             </h3>
 
             <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
-            <span className="text-red-600 dark:text-red-600">Clarity</span> - I use words that the average person can understand such as "watch list, rating, and type"
+            <span className="text-red-600 dark:text-red-600">Clarity</span> - I use words that the average person can understand such as watch list, rating, and type.
             </p>
 
             <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
@@ -91,7 +91,7 @@ function AnimeList() {
             </p>
 
             <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
-            <span className="text-red-600 dark:text-red-600">Consistency and Predictability</span> - I made sure that the terminology that I use is consistent such as "add to watch list" and "remove from watchlist"
+            <span className="text-red-600 dark:text-red-600">Consistency and Predictability</span> - I made sure that the terminology that I use is consistent such as add to watch list and remove from watchlist.
             </p>
 
             </div>

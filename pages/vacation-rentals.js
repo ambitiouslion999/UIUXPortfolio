@@ -50,7 +50,7 @@ function VacationRentals() {
             The purpose of this project was to take a 
             concept from a real startup and create a 
             user interface which would best achieve 
-            the startup's purpose. We followed the 
+            the purpose of that startup. We followed the 
             design flow from sketching, prototyping, 
             critiquing, and user testing to create a 
             final prototype which was sent to the actual
@@ -87,7 +87,7 @@ function VacationRentals() {
         Each of us started the design process by 
         individually sketching the core features 
         and pages that are necessary for carrying 
-        out the startup's vision. We then presented 
+        out the vision of the startup. We then presented 
         our designs to each other and chose parts that 
         made sense to integrate into the interface.       
         </p>
@@ -130,7 +130,7 @@ function VacationRentals() {
 
         <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
         We liked how the home page of this sketch was set up. It also included a section for popular destinations
-            in case you didn't know exactly where to go.
+            in case you did not know exactly where to go.
         </p>
 
 
@@ -207,7 +207,7 @@ function VacationRentals() {
               and sorting functionality for the search was missing. Similar bookings sites also have filters for narrowing down
               results.</p>
               <p className="text-3xl text-black-800 dark:text-white py-3">Boxes with drop shadow on the listings clutters the screen.</p>
-              <p className="text-3xl  text-black-800 dark:text-white py-3">The top left navigation button didn't work, and it wasn't clear
+              <p className="text-3xl  text-black-800 dark:text-white py-3">The top left navigation button did not work, and it was not clear
               what would be included in it. The home logo also had no functionality.</p>
               <p className="text-3xl  text-black-800 dark:text-white py-3">On the review page, the stars looked 3D and out of place
               with the rest of the site.</p>
@@ -219,7 +219,7 @@ function VacationRentals() {
               <p className="text-3xl text-black dark:text-white py-3">We modified the pages to follow a uniform hierarchy of text that clearly showed differences in font size and weight between each element type</p>
               <p className="text-3xl text-black dark:text-white py-3">We added the search bar back to the results page to allow users to easily change their search criteria. Sorting options by relevance, price, proximity, and rating we added to the results page. We also included forms on the home page search area for the checkin date, checkout date, and number of guests as filtering options.</p>
               <p className="text-3xl text-black dark:text-white py-3">The visual design of the listings on the results page was changed to be more simplistic without shadows. We added a little more space within each listing, taking full advantage of the scrolling ability of our mobile layout.</p>
-              <p className="text-3xl text-black dark:text-white py-3">Because of the simplicity of the app, we didn't think it was necessary to include the top left navigation button and removed it. We added functionality to the home logo by making it take you back to the home page when pressed. We also made it easier to get back to the home page by adding a button after the final booking to return.</p>
+              <p className="text-3xl text-black dark:text-white py-3">Because of the simplicity of the app, we did not think it was necessary to include the top left navigation button and removed it. We added functionality to the home logo by making it take you back to the home page when pressed. We also made it easier to get back to the home page by adding a button after the final booking to return.</p>
               <p className="text-3xl text-black dark:text-white py-3">We changed the star design to be uniform throughout the site and opted for a minimalistic black and white scheme.</p>
               <p className="text-3xl text-black dark:text-white py-3">This made a lot of sense to us as designers because we want to make spending money on the site as easy as possible. Thus, we fixed the book now button to always be at the bottom of the screen regardless of scrolling.</p>
             </div>
@@ -332,7 +332,7 @@ function VacationRentals() {
          likely begin turning this into an actual app using Flutter and Dart or some other app development technologies.
          One important lesson I learned from this 
          project is that the key to making your project better is to get other people to test your design because
-         they'll find problems that you might never have thought of yourself.     
+         they will find problems that you might never have thought of yourself.     
          </p>
 
           </section>
