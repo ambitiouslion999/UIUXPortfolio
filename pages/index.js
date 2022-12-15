@@ -24,7 +24,7 @@ export default function Home() {
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
               <a
-                  className="bg-gradient-to-r from-orange-500 dark:text-white to-red-500 text-black px-4 py-2 border-none rounded-md ml-8"
+                  className="bg-gradient-to-r from-orange-500 dark:text-white to-red-500 text-black px-4 py-2 border-none rounded-md ml-8 text-2xl"
                   href="#"
                 >
                   Resume
@@ -33,21 +33,24 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl"
+                  className=" cursor-pointer text-4xl"
                 />
               </li>
 
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-orange-600 font-medium dark:text-orange-400 md:text-6xl">
+            <h2 className="text-5xl py-2 text-orange-600 font-medium dark:text-orange-400 md:text-8xl">
               Ambitious Lion
             </h2>
-            <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
+            <h3 className="text-2xl py-2 dark:text-white md:text-5xl">
               Aspiring developer and designer.
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Current 3rd year student @ Brown University double majoring in Computer Science and Economics.
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-3xl">
+              Current 3rd-year
+              student @ <span className="text-orange-600 dark:text-orange-400">Brown University </span>
+               double majoring in <span className="text-orange-600 dark:text-orange-400">Computer Science </span>
+               and <span className="text-orange-600 dark:text-orange-400">Economics.</span>
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <AiFillTwitterCircle />
@@ -61,11 +64,11 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 d-flex justify-content-between">
+            <h3 className="text-5xl py-1 text-orange-600 dark:text-orange-400">About Me</h3>
+            <p className="text-3xl py-2 leading-8 text-gray-800 dark:text-gray-200 d-flex justify-content-between">
               I am a person who loves to create. Whether it is making
-              <span className="text-orange-400"> websites </span>
-              or designing <span className="text-orange-400"> apps</span>,
+              <span className="text-orange-600 dark:text-orange-400"> websites </span>
+              or designing <span className="text-orange-600 dark:text-orange-400"> apps</span>,
               I love building things and gaining new skills and learning new technologies. 
               I have a deep and wide skillset in both the frontend and backend.
             </p>
@@ -75,32 +78,32 @@ export default function Home() {
               <Image src={"/design.png"} width={100} height={100} />
          
 
-              <h3 className="text-xl py-4 text-orange-400">Design Tools I Use</h3>
-              <p className="text-md text-black-800 dark:text-white py-1">Figma</p>
-              <p className="text-md text-black-800 dark:text-white py-1">Balsamic</p>
-              <p className="text-black-800 dark:text-white py-1">Photoshop</p>
-              <p className="text-md text-black-800 dark:text-white py-1">Canva</p>
+              <h3 className="text-4xl py-4 text-orange-600 font-medium dark:text-orange-400">Design Tools I Use</h3>
+              <p className="text-3xl  text-black-800 dark:text-white py-1">Figma</p>
+              <p className="text-3xl  text-black-800 dark:text-white py-1">Balsamic</p>
+              <p className="text-3xl text-black-800 dark:text-white py-1">Photoshop</p>
+              <p className="text-3xl  text-black-800 dark:text-white py-1">Canva</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1">
               <Image src={"/code.png"} width={100} height={100} />
 
-              <h4 className="text-xl py-4 text-orange-400">My Technology Skillset</h4>
-              <p className="text-black dark:text-white py-1">Python</p>
-              <p className="text-black dark:text-white py-1">Java</p>
-              <p className="text-black dark:text-white py-1">HTML/CSS</p>
-              <p className="text-black dark:text-white py-1">JavaScript</p>
-              <p className="text-black dark:text-white py-1">React</p>
+              <h4 className="text-4xl py-4 text-orange-400">My Technology Skillset</h4>
+              <p className="text-3xl text-black dark:text-white py-1">Python</p>
+              <p className="text-3xl text-black dark:text-white py-1">Java</p>
+              <p className="text-3xl text-black dark:text-white py-1">HTML/CSS</p>
+              <p className="text-3xl text-black dark:text-white py-1">JavaScript</p>
+              <p className="text-3xl text-black dark:text-white py-1">React</p>
             </div>
           </div>
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Projects</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <h3 className="text-5xl py-1 text-orange-600 dark:text-orange-400">Projects</h3>
+            <p className="text-3xl py-2 leading-8 text-gray-800 dark:text-gray-200">
               I have done various projects ranging from
-              <span className="text-orange-400"> designing </span>
+              <span className="text-orange-600 dark:text-orange-400"> designing </span>
               mockups for apps to 
-              <span className="text-orange-400"> developing </span>
+              <span className="text-orange-600 dark:text-orange-400"> developing </span>
               websites. The projects themselves are diverse since these projects are in industries such
               as the legal industry to the vacation home rental industry.
             </p>
@@ -108,7 +111,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-              <a href="">
+              <a href="https://uiux-portfolio-1w6u.vercel.app/briefcase">
               <Image
                 className="rounded-lg"
                 width={"100%"}
@@ -131,7 +134,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="https://ambitiouslion999.github.io/UIUX-Development/">
+              <a href="https://uiux-portfolio-1w6u.vercel.app/animelist">
               <Image
                 className="rounded-lg"
                 width={"100%"}
@@ -144,7 +147,7 @@ export default function Home() {
               
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="https://tragicpanda10.github.io/iterative-design/">
+              <a href="https://uiux-portfolio-1w6u.vercel.app/vacation-rentals">
               <Image
                 className="rounded-lg"
                 width={"100%"}

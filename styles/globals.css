@@ -21,6 +21,24 @@ a {
   justify-content: center;
   }
 
+.small-img-div {
+  width: 15%;
+}  
+
+.img-div {
+  width: 20%;
+  
+}
+
+.mid-img-div {
+  width: 30%
+}
+
+.big-img-div {
+  width: 50%;
+  
+}
+
 * {
   box-sizing: border-box;
 }

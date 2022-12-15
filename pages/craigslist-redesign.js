@@ -19,7 +19,7 @@ function Craigslist() {
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
               <a
-                  className="bg-gradient-to-r from-orange-500 dark:text-white to-red-500 text-black px-4 py-2 border-none rounded-md ml-8 text-2xl"
+                  className="bg-gradient-to-r from-purple-400 dark:text-white to-purple-500 text-black px-4 py-2 border-none rounded-md ml-8 text-2xl"
                   href="https://uiux-portfolio-1w6u.vercel.app/"
                 >
                   Home
@@ -34,7 +34,7 @@ function Craigslist() {
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-orange-600 font-medium dark:text-orange-400 md:text-8xl">
+            <h2 className="text-5xl py-2 text-purple-400 font-medium dark:text-purple-400 md:text-8xl">
               Craigslist
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-5xl">
@@ -42,7 +42,7 @@ function Craigslist() {
             </h3>
             </div>
             <div className="p-10 py-10">
-            <h3 className="text-4xl py-8 leading-8 text-orange-600 font-medium dark:text-orange-400 md:text-5xl">
+            <h3 className="text-4xl py-8 leading-8 text-purple-400 font-medium dark:text-purple-400 md:text-5xl">
               Context
             </h3>
             <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
@@ -54,7 +54,7 @@ function Craigslist() {
             </p>
           </div>
 
-          <h3 className="text-4xl py-8 leading-8 text-orange-600 font-medium dark:text-orange-400 md:text-5xl">
+          <h3 className="text-4xl py-8 leading-8 text-purple-400 font-medium dark:text-purple-400 md:text-5xl">
               Research
         </h3>
         <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
@@ -62,7 +62,7 @@ function Craigslist() {
             </p>
 
           <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1 ">
-          <h3 className="text-2xl py-2 text-orange-600 font-medium dark:text-orange-400 md:text-4xl">
+          <h3 className="text-2xl py-2 text-purple-400 font-medium dark:text-purple-400 md:text-4xl">
             Accessibility Test Findings
           </h3>  
           <ul class="list-group">
@@ -80,7 +80,7 @@ function Craigslist() {
             There are also various other visual problems with the interface.
             </p>
           <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800 flex-1">
-          <h3 className="text-2xl py-2 text-orange-600 font-medium dark:text-orange-400 md:text-4xl">
+          <h3 className="text-2xl py-2 text-purple-400 font-medium dark:text-purple-400 md:text-4xl">
             Observations
           </h3>  
         <ul class="list-group">
@@ -109,7 +109,7 @@ function Craigslist() {
           And so, I decided to give it a little redesign...
           </p>
           </div>
-          <h3 className="text-4xl py-8 leading-8 text-orange-600 font-medium dark:text-orange-400 md:text-5xl">
+          <h3 className="text-4xl py-8 leading-8 text-purple-400 font-medium dark:text-purple-400 md:text-5xl">
               Iterative Designs
         </h3>
         <h3 className="text-xl py-5 dark:text-white md:text-4xl">
@@ -120,25 +120,25 @@ function Craigslist() {
         </p>
 
         <div >
-        <h3 className="text-2xl py-5 leading-8 text-orange-600 font-medium dark:text-orange-400 md:text-4xl text-center container-div">
+        <h3 className="text-2xl py-5 leading-8 text-purple-400 font-medium dark:text-purple-400 md:text-4xl text-center container-div">
               Browser View
         </h3>
         <div class="container-div">
         <img src="/browser.PNG" class="bg-cover2"></img>
         </div>
-        <h3 className="text-2xl py-5 leading-8 text-orange-600 font-medium dark:text-orange-400 md:text-4xl text-center">
+        <h3 className="text-2xl py-5 leading-8 text-purple-400 font-medium dark:text-purple-400 md:text-4xl text-center">
               Tablet View
         </h3>
         <div class="container-div">
         <img src="/tablet.PNG" class="bg-cover3"></img>
         </div>
-        <h3 className="text-2xl py-5 leading-8 text-orange-600 font-medium dark:text-orange-400 md:text-4xl text-center">
+        <h3 className="text-2xl py-5 leading-8 text-purple-400 font-medium dark:text-purple-400 md:text-4xl text-center">
               Phone View
         </h3>
         <div class="container-div">
         <img src="/phone.PNG" class="bg-cover3"></img>
         </div>
-        <h3 className="text-2xl py-5 leading-8 text-orange-600 font-medium dark:text-orange-400 md:text-4xl text-center">
+        <h3 className="text-2xl py-5 leading-8 text-purple-400 font-medium dark:text-purple-400 md:text-4xl text-center">
             Style Sheet
         </h3>  
 
@@ -150,13 +150,13 @@ function Craigslist() {
         This was the style sheet I used for my High-Fi mockups.   
         </p>
           <div>
-          <h3 className="text-4xl py-8 leading-8 text-orange-600 font-medium dark:text-orange-400 md:text-5xl">
+          <h3 className="text-4xl py-8 leading-8 text-purple-400 font-medium dark:text-purple-400 md:text-5xl">
             The Prototype
         </h3>  
         <div class="container-div py-20">
 
         <a
-        className="bg-gradient-to-r from-orange-500 dark:text-white to-red-500 text-black px-4 py-2 border-none rounded-xl text-5xl "
+        className="bg-gradient-to-r from-purple-400 dark:text-white to-purple-500 text-black px-4 py-2 border-none rounded-xl text-5xl "
         href="https://ambitiouslion999.github.io/responsive-redesign/"
         >
         Launch
@@ -164,7 +164,7 @@ function Craigslist() {
         </div>
         <div>
 
-        <h3 className="text-4xl py-8 leading-8 text-orange-600 font-medium dark:text-orange-400 md:text-5xl">
+        <h3 className="text-4xl py-8 leading-8 text-purple-400 font-medium dark:text-purple-400 md:text-5xl">
         Conclusion
         </h3>
         <p className="py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-3xl">
