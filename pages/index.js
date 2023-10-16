@@ -51,7 +51,7 @@ export default function Home() {
               Current Senior @ <span className="text-orange-600 dark:text-orange-400">Brown University </span>
                majoring in <span className="text-orange-600 dark:text-orange-400">Computer Science</span>
             </p>
-            <a href="https://www.linkedin.com/in/atif-khan-9a478515b/" target="_blank" rel="noopener noreferrer" style={{ display: "inline-block", lineHeight: 0 }}>
+            <a href="https://www.linkedin.com/in/atif-khan-9a478515b/" target="_blank" rel="noreferrer" style={{ display: "inline-block", lineHeight: 0 }}>
   <div className="text-5xl flex justify-center text-gray-600 dark:text-gray-400">
     <AiFillLinkedin />
   </div>
