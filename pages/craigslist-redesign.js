@@ -6,7 +6,7 @@ import Image from "next/image";
 
 
 function Craigslist() {
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(true);
 
   return (
     <div className={darkMode ? "dark" : ""}>
