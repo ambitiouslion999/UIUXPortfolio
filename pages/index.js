@@ -11,7 +11,7 @@ import Image from "next/image";
 
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -25,7 +25,8 @@ export default function Home() {
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
               <a
                   className="bg-gradient-to-r from-orange-500 dark:text-white to-red-500 text-black px-4 py-2 border-none rounded-md ml-8 text-2xl"
-                  href="#"
+                  href="/Atif_Khan_Resume_2024.pdf"
+                  download="Atif_Khan_Resume_2024.pdf"
                 >
                   Resume
                 </a>
@@ -41,25 +42,25 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-orange-600 font-medium dark:text-orange-400 md:text-8xl">
-              Ambitious Lion
+              Atif Khan
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-5xl">
-              Aspiring developer and designer.
+              Developer and Designer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 mx-auto md:text-3xl">
-              Current 3rd-year
-              student @ <span className="text-orange-600 dark:text-orange-400">Brown University </span>
-               double majoring in <span className="text-orange-600 dark:text-orange-400">Computer Science </span>
-               and <span className="text-orange-600 dark:text-orange-400">Economics.</span>
+              Current Senior @ <span className="text-orange-600 dark:text-orange-400">Brown University </span>
+               majoring in <span className="text-orange-600 dark:text-orange-400">Computer Science</span>
             </p>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle />
-              <AiFillLinkedin />
-              <AiFillGithub />
-            </div>
-            <div className="mx-auto bg-gradient-to-b from-orange-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={"/kon4.png"} layout="fill" objectFit="cover" />
-            </div>
+            <a href="https://www.linkedin.com/in/atif-khan-9a478515b/" target="_blank" style={{ display: "inline-block", lineHeight: 0 }}>
+  <div className="text-5xl flex justify-center text-gray-600 dark:text-gray-400">
+    <AiFillLinkedin />
+  </div>
+</a>
+
+            <div className="mx-auto bg-gradient-to-b from-orange-500 rounded-full w-80 h-80 relative overflow-hidden mt-5 md:h-96 md:w-96">
+            <div className="absolute inset-0" style={{ top: "-30%", left: "5%" }}>
+    <Image src={"/me2.png"} layout="fill" objectFit="cover" />
+  </div>            </div>
           </div>
         </section>
         <section>
@@ -70,7 +71,7 @@ export default function Home() {
               <span className="text-orange-600 dark:text-orange-400"> websites </span>
               or designing <span className="text-orange-600 dark:text-orange-400"> apps</span>,
               I love building things and gaining new skills and learning new technologies. 
-              I have a deep and wide skillset in both the frontend and backend.
+              I have a deep and wide skillset in both frontend and backend.
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -93,6 +94,11 @@ export default function Home() {
               <p className="text-3xl text-black dark:text-white py-1">HTML/CSS</p>
               <p className="text-3xl text-black dark:text-white py-1">JavaScript</p>
               <p className="text-3xl text-black dark:text-white py-1">React</p>
+              <p className="text-3xl text-black dark:text-white py-1">Git</p>
+              <p className="text-3xl text-black dark:text-white py-1">GCP</p>
+
+
+
             </div>
           </div>
         </section>
